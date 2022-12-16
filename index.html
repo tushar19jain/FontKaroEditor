@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>fontKaro/editor</title>
+    <meta name="description" content="Font karo official editor ">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+    <div class="colOne">
+        <div class="logo">
+            <img src="img/logo.png" width="100px">
+        </div>
+        <hr>
+        <div class="services">
+            <img src="services/text.png" width="140px">
+        </div>
+    </div>
+    <div class="colTwo">
+        <center>
+            <h1>Enter your text</h1>
+            <p contenteditable="true" id="userInput">Type some text...</p>
+        </center>
+    </div>
+    <div class="colThree">
+        <div class="content">
+            <h1>Select Font</h1>
+            <button id="cursive" onclick="change()">CURSIVE</button>
+            <button id="monospace" onclick="monoChange()">MONOSPACE</button>
+            <button id="fantasy" onclick="fantasyChange()">FANTASY</button>
+            <button id="arial" onclick="arialChange()">ARAIL</button>
+            <button id="verdana" onclick="verdanaChange()">VERDANA</button>
+            <button id="tahoma" onclick="tahomaChange()">TAHOMA</button>
+            <button id="timesnewroman" onclick="timesnewromanChange()">TIMES NEW ROMAN</button>
+            <button id="georgia" onclick="georgiaChange()">GEORGIA</button>
+            <button id="trebheuct" onclick="trebuchetChange()">TREBUCHET</button>
+            <button id="courier"onclick="courierChange()">COURIER</button>
+            <button id="brush"onclick="brushChange()">fontKaro</button>
+            <button id="fgm"onclick="fgmChange()">FGM</button>
+            <button id="impact"onclick="impactChange()">IMPACT</button>
+            <button id="georgia"onclick="georgiaChange()">GEORGIA</button>
+            <button id="lucid"onclick="lucidChange()">LUCID</button>
+            <button id="segoe"onclick="segoeChange()">SEGOE</button>
+        </div>
+    </div>
+    <script src="script.js" async defer></script>
+</body>
+
+</html>
